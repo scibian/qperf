@@ -1,0 +1,26 @@
+qperf (0.4.10-2ifs+deb9) UNRELEASED; urgency=medium
+
+  * Branch for stretch.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Fri, 02 Feb 2018 19:00:54 -0600
+
+
+qperf (0.4.10-1ifs) UNRELEASED; urgency=medium
+
+  * Import qperf 0.4.10 from upstream.
+  * Use git packaging and pristine-tar.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Tue, 12 Dec 2017 17:35:21 -0600
+
+
+qperf (0.4.9-1-1ifs) UNRELEASED; urgency=medium
+
+  * Convert to quilt. Corrected the version number.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Sat, 03 Jun 2017 00:39:15 -0500
+
+qperf (0.4.9) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Brian T. Smith <bsmith@systemfabricworks.com>  Mon, 14 Mar 2016 12:26:35 -0500

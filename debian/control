@@ -1,0 +1,17 @@
+Source: qperf
+Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Section: utils
+Priority: extra
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10),
+               dh-autoreconf,
+               libibverbs-dev,
+               librdmacm-dev,
+
+Package: qperf
+Architecture: linux-any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Measure socket and RDMA performance
+ qperf measures bandwidth and latency between two nodes. It can work
+ over TCP/IP as well as the RDMA transports.

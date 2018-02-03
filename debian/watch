@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/qperf-$1\.tar\.gz/ \
+  https://github.com/linux-rdma/qperf/tags .*/v?(\d\S+)\.tar\.gz
+

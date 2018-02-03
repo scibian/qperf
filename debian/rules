@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+
+%:
+	dh $@ --parallel --with autoreconf
+
+.PHONY: override_dh_auto_clean
+override_dh_auto_clean:
+	./cleanup
+
+.PHONY: override_dh_autoreconf
+override_dh_autoreconf:
+	./autogen.sh
