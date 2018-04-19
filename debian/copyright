@@ -22,6 +22,7 @@ License: GPL-2 or BSD-2-Clause/OpenIB
 
 Files: debian/*
 Copyright: 2016-2018 System Fabric Works, Inc.
+           2018 Scibian Project <legal@scibian.org>
 License: GPL-2 or BSD-2-Clause/OpenIB
 
 License: GPL-2

@@ -1,8 +1,10 @@
 Source: qperf
-Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Section: utils
 Priority: extra
 Standards-Version: 3.9.8
+Vcs-Git: https://github.com/scibian/qperf.git
+Vcs-Browser: https://github.com/scibian/qperf
 Build-Depends: debhelper (>= 10),
                dh-autoreconf,
                libibverbs-dev,
